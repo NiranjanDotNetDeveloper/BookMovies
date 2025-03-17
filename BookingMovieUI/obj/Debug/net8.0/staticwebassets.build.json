@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "7eruW7OZOH3TyuCh94BUDuxzWL59k2Q+/4ne+/7p5to=",
+  "Source": "BookingMovieUI",
+  "BasePath": "_content/BookingMovieUI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookingMovieUI\\wwwroot",
+      "Source": "BookingMovieUI",
+      "ContentRoot": "C:\\Users\\lenovo\\OneDrive\\Desktop\\MVC New Project\\MovieBookingApp\\BookingMovieUI\\wwwroot\\",
+      "BasePath": "_content/BookingMovieUI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+@model LoginDto
+<main class="container-fluid ms-auto w-75 mt-4">
+    <section class="card">
+        <section class="card-header bg-success">
+            <h1 class="text-center display-4 text-white">Login</h1>
+        </section>
+        <section class="card-body">
+            <form class="row g-3" asp-action="Login" asp-controller="Account" method="post">
+                <div>
+                    <label asp-for="UserName" class="form-label">UserName</label>
+                    <input class="form-control" asp-for="UserName">
+                </div>
+                <div>
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" asp-for="Email">
+                </div>
+                <div class="col-md-2">
+                    <input type="checkbox" id="check" />
+                    <label for="check">Remember me?</label>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success" type="submit">Login</button>
+                </div>
+                <div class="d-lg-flex d-md-flex justify-content-between">
+                    <a href="#" class="text-success">Forgot your password?</a>
+                    <a href="#" class="text-success">Register as a new user </a>
+                    <a href="#" class="text-success">Resend email confirmation </a>
+                </div>
+            </form>
+        </section>
+    </section>
+</main>
